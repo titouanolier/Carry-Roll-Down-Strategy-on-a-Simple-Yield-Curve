@@ -3,7 +3,8 @@ This project builds a simple bond strategy that exploits the US Treasury yield c
 
 - Carry: the yield of a bond if the yield curve remains unchanged.
 - Roll-down: the gain (or loss) when a bond “rolls down” the curve as it approaches a shorter maturity on a sloped or inverted curve.
-- The strategy selects the optimal maturity each month and tracks performance over the following month. The project includes:
+
+The strategy selects the optimal maturity each month and tracks performance over the following month. The project includes:
 
 - Importing monthly US Treasury yields (2Y, 5Y, 10Y).
 - Calculating carry and roll-down for each maturity.
